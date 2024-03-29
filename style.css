@@ -384,6 +384,7 @@ body {
     }
     .soon {
         margin-top: 100px;
+        margin-bottom: 0;
     }
 }
 
@@ -398,7 +399,6 @@ body {
         }
         .soon {
             margin-top: 100px;
-
         }
     }
 
