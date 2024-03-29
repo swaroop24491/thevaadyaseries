@@ -356,17 +356,18 @@ body {
     background-color: #f9f9f9;
     height: 100vh;
     display: flex;
-    align-items: center;
+    align-items: normal;
     > div {
         flex-grow: 1;
         max-width: 800px;
         margin: 0 auto;
+        margin-top: 25vh;
         padding: 0 16px;
     }
     h1 {
         font-weight: 700;
         color: #262626;
-        font-size: 42px;
+        font-size: 48px;
         margin: 0;
         margin-bottom: 24px;
         text-align: center;
@@ -385,17 +386,21 @@ body {
     .soon {
         margin-top: 100px;
         margin-bottom: 0;
+        text-decoration: underline;
     }
 }
 
 @media screen
     and (max-device-width: 640px) {
     .rootCont {
+        > div {
+            max-width: 100%;
+        }
         h1 {
             font-size: 72px;
         }
         p {
-            font-size: 36px;
+            font-size: 40px;
         }
         .soon {
             margin-top: 100px;
