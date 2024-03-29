@@ -386,3 +386,21 @@ body {
         margin-top: 100px;
     }
 }
+
+@media screen
+    and (max-device-width: 640px) {
+    .rootCont {
+        h1 {
+            font-size: 72px;
+        }
+        p {
+            font-size: 36px;
+        }
+        .soon {
+            margin-top: 100px;
+
+        }
+    }
+
+
+  }
