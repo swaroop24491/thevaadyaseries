@@ -388,6 +388,14 @@ body {
         margin-bottom: 0;
         text-decoration: underline;
     }
+    .tabla {
+      width: 100%;
+      display: flex;
+      img {
+        max-width: 200px;
+        margin: 0 auto;
+      }
+    }
 }
 
 @media screen
@@ -405,7 +413,11 @@ body {
         .soon {
             margin-top: 100px;
         }
+        .tabla {
+          img {
+            max-width: 400px;
+            margin-top: 60px;
+          }
+        }
     }
-
-
   }
